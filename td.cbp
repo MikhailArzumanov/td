@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="td" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Source/;Header/;Header/core/;Source/core/;Source/core/Window/;Source/core/IGameObject/;Source/GameObjects/;Header/GameObjects/;Source/GameObjects/Projectile/;Source/core/point/;Source/core/RectShape/;Source/GameObjects/Circle/" />
+		<Build>
+			<Target title="Linux">
+				<Option output="bin/Linux/td" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Linux/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add directory="lib/linux" />
+				</Linker>
+			</Target>
+			<Target title="Windows">
+				<Option output="bin/Windows/td" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Windows/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add directory="lib/windows" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-system" />
+			<Add library="sfml-window" />
+			<Add library="sfml-graphics" />
+		</Linker>
+		<Unit filename="Circle.cpp">
+			<Option virtualFolder="Source/GameObjects/Circle/" />
+		</Unit>
+		<Unit filename="Circle.hpp">
+			<Option virtualFolder="Header/GameObjects/" />
+		</Unit>
+		<Unit filename="IDrawable.hpp">
+			<Option virtualFolder="Header/core/" />
+		</Unit>
+		<Unit filename="IGameObject.hpp">
+			<Option virtualFolder="Header/core/" />
+		</Unit>
+		<Unit filename="IGameObject_doesCollidesWith.cpp">
+			<Option virtualFolder="Source/core/IGameObject/" />
+		</Unit>
+		<Unit filename="IGameObject_getters.cpp">
+			<Option virtualFolder="Source/core/IGameObject/" />
+		</Unit>
+		<Unit filename="IGameObject_tick.cpp">
+			<Option virtualFolder="Source/core/IGameObject/" />
+		</Unit>
+		<Unit filename="IShape.hpp">
+			<Option virtualFolder="Header/core/" />
+		</Unit>
+		<Unit filename="Projectile.cpp">
+			<Option virtualFolder="Source/GameObjects/Projectile/" />
+		</Unit>
+		<Unit filename="Projectile.hpp">
+			<Option virtualFolder="Header/GameObjects/" />
+		</Unit>
+		<Unit filename="RectShape.hpp">
+			<Option virtualFolder="Header/core/" />
+		</Unit>
+		<Unit filename="RectShape_contains.cpp">
+			<Option virtualFolder="Source/core/RectShape/" />
+		</Unit>
+		<Unit filename="Window.cpp">
+			<Option virtualFolder="Source/core/Window/" />
+		</Unit>
+		<Unit filename="Window.hpp">
+			<Option virtualFolder="Header/core/" />
+		</Unit>
+		<Unit filename="_.cpp" />
+		<Unit filename="_.hpp" />
+		<Unit filename="main.cpp">
+			<Option virtualFolder="Source/" />
+		</Unit>
+		<Unit filename="point.cpp">
+			<Option virtualFolder="Source/core/point/" />
+		</Unit>
+		<Unit filename="point.hpp">
+			<Option virtualFolder="Header/core/" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

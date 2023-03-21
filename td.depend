@@ -1,0 +1,269 @@
+# depslib dependency file v1.0
+1679405261 source:/home/mikhail/projects/td/main.cpp
+	"Window.hpp"
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Window/Event.hpp>
+	"Projectile.hpp"
+	<list>
+	"Circle.hpp"
+
+1679388295 source:/home/mikhail/projects/td/_.cpp
+
+1679395833 source:/home/mikhail/projects/td/Window.cpp
+	"Window.hpp"
+
+1679395774 /home/mikhail/projects/td/Window.hpp
+	<SFML/Graphics/RenderWindow.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/RenderWindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/Export.hpp
+	<SFML/Config.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Config.hpp
+	"TargetConditionals.h"
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/RenderTarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/Color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/Rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1679387593 /home/mikhail/projects/td/include/SFML/System/Vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1679387593 /home/mikhail/projects/td/include/SFML/System/Vector2.inl
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/Rect.inl
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/View.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/Transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/BlendMode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/RenderStates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/PrimitiveType.hpp
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/Vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/System/NonCopyable.hpp
+	<SFML/System/Export.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/System/Export.hpp
+	<SFML/Config.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/Image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Window/Window.hpp
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Vector2.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Window/ContextSettings.hpp
+	<SFML/Config.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Window/Cursor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Window/Export.hpp
+	<SFML/Config.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Window/GlResource.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Window/VideoMode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Window/WindowHandle.hpp
+	<SFML/Config.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Window/WindowStyle.hpp
+
+1679387593 /home/mikhail/projects/td/include/SFML/System/Clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/System/Time.hpp
+	<SFML/System/Export.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/System/String.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1679387593 /home/mikhail/projects/td/include/SFML/System/Utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1679387593 /home/mikhail/projects/td/include/SFML/System/Utf.inl
+
+1679387593 /home/mikhail/projects/td/include/SFML/System/String.inl
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/CircleShape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/Shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/Drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/Transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/VertexArray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Window/Event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Window/Joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Window/Keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Window/Mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/Window/Sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1679387593 /home/mikhail/projects/td/include/SFML/System/Vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1679387593 /home/mikhail/projects/td/include/SFML/System/Vector3.inl
+
+1679403065 source:/home/mikhail/projects/td/IGameObject_doesCollidesWith.cpp
+	"IGameObject.hpp"
+
+1679404679 /home/mikhail/projects/td/IGameObject.hpp
+	"IDrawable.hpp"
+	"RectShape.hpp"
+
+1679399480 /home/mikhail/projects/td/IDrawable.hpp
+
+1679400429 /home/mikhail/projects/td/point.hpp
+
+1679404546 source:/home/mikhail/projects/td/IGameObject_getters.cpp
+	"IGameObject.hpp"
+
+1679400513 source:/home/mikhail/projects/td/point.cpp
+	"point.hpp"
+	<cmath>
+
+1679404002 source:/home/mikhail/projects/td/Projectile.cpp
+	"Projectile.hpp"
+	"Window.hpp"
+
+1679404498 /home/mikhail/projects/td/Projectile.hpp
+	"IGameObject.hpp"
+	<SFML/Graphics/RectangleShape.hpp>
+
+1679400398 source:/home/mikhail/projects/td/IGameObject.cpp
+	"IGameObject.hpp"
+
+1679401021 source:/home/mikhail/projects/td/IGameObject_tick.cpp
+	"IGameObject.hpp"
+
+1679402906 /home/mikhail/projects/td/RectShape.hpp
+	"IShape.hpp"
+
+1679403053 /home/mikhail/projects/td/IShape.hpp
+	"point.hpp"
+
+1679403005 source:/home/mikhail/projects/td/RectShape_contains.cpp
+	"RectShape.hpp"
+
+1679387593 /home/mikhail/projects/td/include/SFML/Graphics/RectangleShape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1679405285 source:/home/mikhail/projects/td/Circle.cpp
+	"Circle.hpp"
+	"Projectile.hpp"
+	"Window.hpp"
+
+1679404740 /home/mikhail/projects/td/Circle.hpp
+	"IGameObject.hpp"
+	<SFML/Graphics/CircleShape.hpp>
+
