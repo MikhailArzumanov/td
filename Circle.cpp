@@ -4,8 +4,9 @@
 
 
 
-Circle::Circle(Game* _game, commonInitData data, visualData vData, float _hp):IGameObject(_game){
-    position = data.position; dims = data.dims; hp = _hp;
+Circle::Circle(Game* _game, commonInitData data, const visualData vData, float _hp, float _dmg):IGameObject(_game){
+    position = data.position; dims = data.dims;
+    hp = _hp; dmg = _dmg;
     shape = sf::CircleShape(dims.x/2.f, 12.f);
     shape.setFillColor(vData.fillClr);
     shape.setOutlineColor(vData.outlineClr);
@@ -28,6 +29,7 @@ void Circle::collideWith(IGameObject& another){
 }
 
 void Circle::tick(){
+    IGameObject::tick();
     if(hp <= 0) isAlive = false;
 }
 

@@ -24,6 +24,7 @@ void Edifice::collideWith(IGameObject& another){
 
 }
 void Edifice::tick(){
+    IGameObject::tick();
     if(reloadT > 0){
         reloadT -= 1.f;
         return;
@@ -42,7 +43,8 @@ void Edifice::tick(){
     }
     if(res){
         auto prjVData = visualData(PROJECTILE_FILL_COLOR, PROJECTILE_OUTLINE_COLOR, PROJECTILE_OUTLINE_WIDTH);
-        auto prjIData = projectileInitData(position, PROJ_DIMS, res->getPosition(), prjSpeed, dmg);
+        auto target = res->getPosition()+res->getDims()/2;
+        auto prjIData = projectileInitData(position+dims/2, PROJ_DIMS, target, prjSpeed, dmg);
         auto proj = new Projectile(game, prjVData, prjIData);
         game->pushGameObject(proj);
         reloadT = atkSpeed;

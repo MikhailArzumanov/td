@@ -256,12 +256,12 @@
 	<SFML/Graphics/Export.hpp>
 	<SFML/Graphics/Shape.hpp>
 
-1679573250 source:/home/mikhail/projects/td/Circle.cpp
+1679577363 source:/home/mikhail/projects/td/Circle.cpp
 	"Circle.hpp"
 	"Projectile.hpp"
 	"Window.hpp"
 
-1679573125 /home/mikhail/projects/td/Circle.hpp
+1679577209 /home/mikhail/projects/td/Circle.hpp
 	"IGameObject.hpp"
 	<SFML/Graphics/CircleShape.hpp>
 
@@ -278,10 +278,11 @@
 1679558551 source:/home/mikhail/projects/td/Game_constructor.cpp
 	"Game.hpp"
 
-1679571868 /home/mikhail/projects/td/Game.hpp
+1679577583 /home/mikhail/projects/td/Game.hpp
 	"Circle.hpp"
 	"Projectile.hpp"
 	<list>
+	<SFML/System/Clock.hpp>
 
 1679558279 source:/home/mikhail/projects/td/Game_collide.cpp
 	"Game.hpp"
@@ -294,7 +295,7 @@
 	"Game.hpp"
 	"Window.hpp"
 
-1679558484 source:/home/mikhail/projects/td/Game_encycle.cpp
+1679577656 source:/home/mikhail/projects/td/Game_encycle.cpp
 	"Game.hpp"
 
 1679571416 source:/home/mikhail/projects/td/Game_handleEvents.cpp
@@ -302,7 +303,7 @@
 	"Window.hpp"
 	<SFML/Window/Event.hpp>
 
-1679574124 source:/home/mikhail/projects/td/Game_init.cpp
+1679577816 source:/home/mikhail/projects/td/Game_init.cpp
 	"Game.hpp"
 	"Window.hpp"
 	"Edifice.hpp"
@@ -310,13 +311,15 @@
 1679558325 source:/home/mikhail/projects/td/Game_lifeCheck.cpp
 	"Game.hpp"
 
-1679571451 source:/home/mikhail/projects/td/Game_tick.cpp
+1679577735 source:/home/mikhail/projects/td/Game_tick.cpp
 	"Game.hpp"
+	"Circle_L1T1.hpp"
+	"Window.hpp"
 
 1679560196 source:/home/mikhail/projects/td/IGameObject_events.cpp
 	"IGameObject.hpp"
 
-1679574885 source:/home/mikhail/projects/td/Edifice.cpp
+1679577376 source:/home/mikhail/projects/td/Edifice.cpp
 	"Edifice.hpp"
 	"Game.hpp"
 	"Window.hpp"
@@ -325,4 +328,10 @@
 1679574301 /home/mikhail/projects/td/Edifice.hpp
 	"IGameObject.hpp"
 	<SFML/Graphics/RectangleShape.hpp>
+
+1679577830 source:/home/mikhail/projects/td/Circle_L1T1.cpp
+	"Circle_L1T1.hpp"
+
+1679577104 /home/mikhail/projects/td/Circle_L1T1.hpp
+	"Circle.hpp"
 

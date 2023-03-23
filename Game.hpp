@@ -4,9 +4,12 @@
 #include "Circle.hpp"
 #include "Projectile.hpp"
 #include <list>
+#include <SFML/System/Clock.hpp>
+
 class Game{
 private:
     std::list<IGameObject*> objects;
+    sf::Clock theClock;
 
     void collide();
     void lifeCheck();
