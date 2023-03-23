@@ -12,6 +12,7 @@ struct point{
     void operator*=(float scalar);
 
     float getModule() const;
+    float getSqrModule() const;
 };
 
 

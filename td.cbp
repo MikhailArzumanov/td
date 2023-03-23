@@ -5,7 +5,7 @@
 		<Option title="td" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
-		<Option virtualFolders="Source/;Header/;Header/core/;Source/core/;Source/core/Window/;Source/core/IGameObject/;Source/GameObjects/;Header/GameObjects/;Source/GameObjects/Projectile/;Source/core/point/;Source/core/RectShape/;Source/GameObjects/Circle/" />
+		<Option virtualFolders="Source/;Header/;Header/core/;Source/core/;Source/core/Window/;Source/core/IGameObject/;Source/GameObjects/;Header/GameObjects/;Source/GameObjects/Projectile/;Source/core/point/;Source/core/RectShape/;Source/GameObjects/Circle/;Source/Game/;Source/GameObjects/Edifice/" />
 		<Build>
 			<Target title="Linux">
 				<Option output="bin/Linux/td" prefix_auto="1" extension_auto="1" />
@@ -48,6 +48,42 @@
 		<Unit filename="Circle.hpp">
 			<Option virtualFolder="Header/GameObjects/" />
 		</Unit>
+		<Unit filename="Edifice.cpp">
+			<Option virtualFolder="Source/GameObjects/Edifice/" />
+		</Unit>
+		<Unit filename="Edifice.hpp">
+			<Option virtualFolder="Header/GameObjects/" />
+		</Unit>
+		<Unit filename="Game.hpp">
+			<Option virtualFolder="Header/" />
+		</Unit>
+		<Unit filename="Game_clear.cpp">
+			<Option virtualFolder="Source/Game/" />
+		</Unit>
+		<Unit filename="Game_collide.cpp">
+			<Option virtualFolder="Source/Game/" />
+		</Unit>
+		<Unit filename="Game_constructor.cpp">
+			<Option virtualFolder="Source/Game/" />
+		</Unit>
+		<Unit filename="Game_draw.cpp">
+			<Option virtualFolder="Source/Game/" />
+		</Unit>
+		<Unit filename="Game_encycle.cpp">
+			<Option virtualFolder="Source/Game/" />
+		</Unit>
+		<Unit filename="Game_handleEvents.cpp">
+			<Option virtualFolder="Source/Game/" />
+		</Unit>
+		<Unit filename="Game_init.cpp">
+			<Option virtualFolder="Source/Game/" />
+		</Unit>
+		<Unit filename="Game_lifeCheck.cpp">
+			<Option virtualFolder="Source/Game/" />
+		</Unit>
+		<Unit filename="Game_tick.cpp">
+			<Option virtualFolder="Source/Game/" />
+		</Unit>
 		<Unit filename="IDrawable.hpp">
 			<Option virtualFolder="Header/core/" />
 		</Unit>
@@ -55,6 +91,9 @@
 			<Option virtualFolder="Header/core/" />
 		</Unit>
 		<Unit filename="IGameObject_doesCollidesWith.cpp">
+			<Option virtualFolder="Source/core/IGameObject/" />
+		</Unit>
+		<Unit filename="IGameObject_events.cpp">
 			<Option virtualFolder="Source/core/IGameObject/" />
 		</Unit>
 		<Unit filename="IGameObject_getters.cpp">

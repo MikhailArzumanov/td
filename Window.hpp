@@ -10,11 +10,12 @@ private:
     int width  = 0;
     int height = 0;
 
-    void clear();
     void  init();
 public:
     Window(std::string _title, int _width, int _height);
     Window();
+
+    void clear();
 
     void initWindow    (std::string _title, int _width, int _height);
     void setWindowTitle(std::string _title);

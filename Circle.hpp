@@ -4,14 +4,14 @@
 #include <SFML/Graphics/CircleShape.hpp>
 
 class Circle : public IGameObject{
-private:
+protected:
     sf::CircleShape shape;
-    int hp;
+    float hp;
 public:
-    Circle(point _position);
-    void collideWith(IGameObject& another);
-    void tick();
-    void draw();
+    Circle(Game* _game, commonInitData data, visualData vData, float _hp);
+    virtual void collideWith(IGameObject& another);
+    virtual void tick();
+    virtual void draw();
 };
 
 

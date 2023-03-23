@@ -1,23 +1,19 @@
 #include "Projectile.hpp"
 #include "Window.hpp"
 
-const point     PROJ_DIMS          = {12.f, 12.f};
 
-const sf::Color PROJECTILE_FILL_COLOR    = sf::Color::Black;
-const sf::Color PROJECTILE_OUTLINE_COLOR = sf::Color::White;
-const float     PROJECTILE_OUTLINE_WIDTH = 1.2f;
-
-Projectile::Projectile(point _position, point target, float vModule, float _dmg){
-    velocity = target-_position;
+Projectile::Projectile(Game* _game, visualData vData, projectileInitData data)
+        :IGameObject(_game){
+    position = data.position;
+    velocity = data.target-position;
     float vm = velocity.getModule();
-    velocity *= vModule/vm;
-    position = _position;
-    shape = sf::RectangleShape({PROJ_DIMS.x, PROJ_DIMS.y});
-    shape.setFillColor(PROJECTILE_FILL_COLOR);
-    shape.setOutlineColor(PROJECTILE_OUTLINE_COLOR);
-    shape.setOutlineThickness(PROJECTILE_OUTLINE_WIDTH);
+    velocity *= data.vModule/vm;
+    dims = data.dims; dmg = data.dmg;
+    shape = sf::RectangleShape({dims.x, dims.y});
+    shape.setFillColor(vData.fillClr);
+    shape.setOutlineColor(vData.outlineClr);
+    shape.setOutlineThickness(vData.outlineWdth);
     type = GameObjectType::projectile;
-    dmg = _dmg;
 }
 
 void Projectile::draw(){

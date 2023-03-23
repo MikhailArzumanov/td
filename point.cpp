@@ -24,3 +24,7 @@ void point::operator+=(point another){
 float point::getModule() const{
     return sqrt(x*x + y*y);
 }
+
+float point::getSqrModule() const{
+    return x*x + y*y;
+}

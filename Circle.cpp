@@ -3,21 +3,13 @@
 #include "Window.hpp"
 
 
-const point     CRCL_DIMS          = {34.f, 34.f};
 
-const sf::Color CIRCLE_FILL_COLOR    = sf::Color::Black;
-const sf::Color CIRCLE_OUTLINE_COLOR = sf::Color::White;
-const float     CIRCLE_OUTLINE_WIDTH = 1.2f;
-
-Circle::Circle(point _position){
-    position = _position;
-    velocity = {0,0};
-    dims = CRCL_DIMS;
-    hp = 12;
-    shape = sf::CircleShape(CRCL_DIMS.x/2.f, 12);
-    shape.setFillColor(CIRCLE_FILL_COLOR);
-    shape.setOutlineColor(CIRCLE_OUTLINE_COLOR);
-    shape.setOutlineThickness(CIRCLE_OUTLINE_WIDTH);
+Circle::Circle(Game* _game, commonInitData data, visualData vData, float _hp):IGameObject(_game){
+    position = data.position; dims = data.dims; hp = _hp;
+    shape = sf::CircleShape(dims.x/2.f, 12.f);
+    shape.setFillColor(vData.fillClr);
+    shape.setOutlineColor(vData.outlineClr);
+    shape.setOutlineThickness(vData.outlineWdth);
     type = GameObjectType::circle;
 }
 void Circle::collideWith(IGameObject& another){
