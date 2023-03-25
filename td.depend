@@ -335,3 +335,326 @@
 1679577104 /home/mikhail/projects/td/Circle_L1T1.hpp
 	"Circle.hpp"
 
+1679714505 source:d:\projects\repos\cplusplus\td\_.cpp
+
+1679714505 source:d:\projects\repos\cplusplus\td\circle.cpp
+	"Circle.hpp"
+	"Projectile.hpp"
+	"Window.hpp"
+
+1679714505 d:\projects\repos\cplusplus\td\circle.hpp
+	"IGameObject.hpp"
+	<SFML/Graphics/CircleShape.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\igameobject.hpp
+	"IDrawable.hpp"
+	"RectShape.hpp"
+	"SFML/Window/Event.hpp"
+	<SFML/Graphics/Color.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\idrawable.hpp
+
+1679714505 d:\projects\repos\cplusplus\td\rectshape.hpp
+	"IShape.hpp"
+
+1679714505 d:\projects\repos\cplusplus\td\ishape.hpp
+	"point.hpp"
+
+1679714506 d:\projects\repos\cplusplus\td\point.hpp
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\system\utf.inl
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\system\string.inl
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\system\vector2.inl
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\system\vector3.inl
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\rect.inl
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\primitivetype.hpp
+
+1679714505 d:\projects\repos\cplusplus\td\projectile.hpp
+	"IGameObject.hpp"
+	<SFML/Graphics/RectangleShape.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\window.hpp
+	<SFML/Graphics/RenderWindow.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\window\window.hpp
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Vector2.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\window\contextsettings.hpp
+	<SFML/Config.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\window\cursor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\window\windowstyle.hpp
+
+1679714505 d:\projects\repos\cplusplus\td\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1679714505 source:d:\projects\repos\cplusplus\td\edifice.cpp
+	"Edifice.hpp"
+	"Game.hpp"
+	"Window.hpp"
+	"Projectile.hpp"
+
+1679714505 d:\projects\repos\cplusplus\td\edifice.hpp
+	"IGameObject.hpp"
+	<SFML/Graphics/RectangleShape.hpp>
+
+1679714505 d:\projects\repos\cplusplus\td\game.hpp
+	"Circle.hpp"
+	"Projectile.hpp"
+	<list>
+	<SFML/System/Clock.hpp>
+
+1679714505 source:d:\projects\repos\cplusplus\td\game_clear.cpp
+	"Game.hpp"
+	"Window.hpp"
+
+1679714505 source:d:\projects\repos\cplusplus\td\game_collide.cpp
+	"Game.hpp"
+
+1679714505 source:d:\projects\repos\cplusplus\td\game_constructor.cpp
+	"Game.hpp"
+
+1679714505 source:d:\projects\repos\cplusplus\td\game_draw.cpp
+	"Game.hpp"
+	"Window.hpp"
+
+1679714505 source:d:\projects\repos\cplusplus\td\game_encycle.cpp
+	"Game.hpp"
+
+1679714505 source:d:\projects\repos\cplusplus\td\game_handleevents.cpp
+	"Game.hpp"
+	"Window.hpp"
+	<SFML/Window/Event.hpp>
+
+1679714505 source:d:\projects\repos\cplusplus\td\game_init.cpp
+	"Game.hpp"
+	"Window.hpp"
+	"Edifice.hpp"
+
+1679714505 source:d:\projects\repos\cplusplus\td\game_lifecheck.cpp
+	"Game.hpp"
+
+1679714505 source:d:\projects\repos\cplusplus\td\game_tick.cpp
+	"Game.hpp"
+	"Circle_L1T1.hpp"
+	"Window.hpp"
+
+1679714505 d:\projects\repos\cplusplus\td\circle_l1t1.hpp
+	"Circle.hpp"
+
+1679714505 source:d:\projects\repos\cplusplus\td\igameobject_doescollideswith.cpp
+	"IGameObject.hpp"
+
+1679714505 source:d:\projects\repos\cplusplus\td\igameobject_events.cpp
+	"IGameObject.hpp"
+
+1679714505 source:d:\projects\repos\cplusplus\td\igameobject_getters.cpp
+	"IGameObject.hpp"
+
+1679714505 source:d:\projects\repos\cplusplus\td\igameobject_tick.cpp
+	"IGameObject.hpp"
+
+1679714506 source:d:\projects\repos\cplusplus\td\main.cpp
+	"Game.hpp"
+	"Window.hpp"
+
+1679714506 source:d:\projects\repos\cplusplus\td\point.cpp
+	"point.hpp"
+	<cmath>
+
+1679714505 source:d:\projects\repos\cplusplus\td\projectile.cpp
+	"Projectile.hpp"
+	"Window.hpp"
+
+1679714505 source:d:\projects\repos\cplusplus\td\rectshape_contains.cpp
+	"RectShape.hpp"
+
+1679714505 source:d:\projects\repos\cplusplus\td\window.cpp
+	"Window.hpp"
+
+1679714505 source:d:\projects\repos\cplusplus\td\circle_l1t1.cpp
+	"Circle_L1T1.hpp"
+

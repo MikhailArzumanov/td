@@ -5,7 +5,7 @@
 		<Option title="td" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
-		<Option virtualFolders="Source/;Header/;Header/core/;Source/core/;Source/core/Window/;Source/core/IGameObject/;Source/GameObjects/;Header/GameObjects/;Source/GameObjects/Projectile/;Source/core/point/;Source/core/RectShape/;Source/GameObjects/Circle/;Source/Game/;Source/GameObjects/Edifice/" />
+		<Option virtualFolders="Source/;Header/;Header/core/;Source/core/;Source/core/Window/;Source/core/IGameObject/;Source/GameObjects/;Header/GameObjects/;Source/GameObjects/Projectile/;Source/core/point/;Source/core/RectShape/;Source/GameObjects/Circle/;Source/Game/;Source/GameObjects/Edifice/;Header/GameObjects/Circles/;Source/GameObjects/Circle/Circles/" />
 		<Build>
 			<Target title="Linux">
 				<Option output="bin/Linux/td" prefix_auto="1" extension_auto="1" />
@@ -47,6 +47,12 @@
 		</Unit>
 		<Unit filename="Circle.hpp">
 			<Option virtualFolder="Header/GameObjects/" />
+		</Unit>
+		<Unit filename="Circle_L1T1.cpp">
+			<Option virtualFolder="Source/GameObjects/Circle/Circles/" />
+		</Unit>
+		<Unit filename="Circle_L1T1.hpp">
+			<Option virtualFolder="Header/GameObjects/Circles/" />
 		</Unit>
 		<Unit filename="Edifice.cpp">
 			<Option virtualFolder="Source/GameObjects/Edifice/" />
