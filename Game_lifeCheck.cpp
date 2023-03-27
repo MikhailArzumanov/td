@@ -5,6 +5,7 @@ void Game::lifeCheck(){
     if(!(*obj)->stillAlive()){
         auto tmp = obj;
         obj++;
+        delete *tmp;
         objects.erase(tmp);
     }
     else obj++;

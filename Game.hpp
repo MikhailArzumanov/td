@@ -5,11 +5,18 @@
 #include "Projectile.hpp"
 #include <list>
 #include <SFML/System/Clock.hpp>
+#include "Level.hpp"
+#include <map>
 
 class Game{
 private:
     std::list<IGameObject*> objects;
     sf::Clock theClock;
+
+    std::map<LevelsEnum, Level*> levelsMap;
+    Level* currentLevel;
+
+    void initLevelsMap();
 
     void collide();
     void lifeCheck();
@@ -31,6 +38,8 @@ public:
     void init();
     void encycle();
     void clear();
+
+    void changeLevel(LevelsEnum level);
 };
 
 #endif // GAME_HPP_INCLUDED
