@@ -18,7 +18,15 @@ enum class EdificeType {
 
 class Edifice : public IGameObject{
 protected:
+    visualData vData;
     sf::RectangleShape shape;
+    sf::RectangleShape crossV, crossH;
+
+    void initCross();
+
+    int gradeLevel = 0;
+    int mxLevel    = 0;
+
     EdificeType eType = EdificeType::count;
 
     float atkSpeed = 1000.0f;
@@ -29,11 +37,12 @@ protected:
 
     float reloadT  = 0.f;
 public:
-    Edifice(Game* _game, visualData vData, edificeInitData data);
+    Edifice(Game* _game, visualData _vData, edificeInitData data, int _mxLevel);
     virtual void collideWith(IGameObject& another);
     virtual void tick();
     virtual void draw();
 
+    virtual void upgrade();
     virtual void hit(float dmg);
 };
 

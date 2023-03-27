@@ -1,4 +1,5 @@
 #include "IGameObject.hpp"
+#include "Trigger.hpp"
 
 void IGameObject::onMouseLeft()    {}
 void IGameObject::onMouseEntered() {}

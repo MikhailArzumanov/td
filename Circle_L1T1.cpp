@@ -13,6 +13,6 @@ const float CL1T1_DMG = 1.f;
 const point CL1T1_V = {0.f, 4.f};
 
 Circle_L1T1::Circle_L1T1(Game* _game, point _position)
-        :Circle(_game, commonInitData{_position, CL1T1_DIMS}, CL1T1_VDATA, CL1T1_HP, CL1T1_DMG){
+    :Circle_L1(_game, commonInitData{_position, CL1T1_DIMS}, CL1T1_VDATA, CL1T1_HP, CL1T1_DMG){
     velocity = CL1T1_V; cType = CircleType::L1T1;
 }

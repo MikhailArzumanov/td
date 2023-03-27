@@ -15,6 +15,7 @@ protected:
     sf::CircleShape shape;
     float hp; float dmg;
     CircleType cType = CircleType::count;
+    virtual void onTriggerred(TriggerType type);
 public:
     Circle(Game* _game, commonInitData data, visualData vData, float _hp, float _dmg);
     virtual void collideWith(IGameObject& another);

@@ -5,7 +5,7 @@
 		<Option title="td" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
-		<Option virtualFolders="Source/;Header/;Header/core/;Source/core/;Source/core/Window/;Source/core/IGameObject/;Source/GameObjects/;Header/GameObjects/;Source/GameObjects/Projectile/;Source/core/point/;Source/core/RectShape/;Source/GameObjects/Circle/;Source/Game/;Source/GameObjects/Edifice/;Header/GameObjects/Circles/;Source/GameObjects/Circle/Circles/;Source/GameObjects/Edifice/Edificies/;Header/GameObjects/Edificies/;Header/Levels/;Source/Levels/;Source/Levels/Level1/" />
+		<Option virtualFolders="Source/;Header/;Header/core/;Source/core/;Source/core/Window/;Source/core/IGameObject/;Source/GameObjects/;Header/GameObjects/;Source/GameObjects/Projectile/;Source/core/point/;Source/core/RectShape/;Source/GameObjects/Circle/;Source/Game/;Source/GameObjects/Edifice/;Header/GameObjects/Circles/;Source/GameObjects/Circle/Circles/;Source/GameObjects/Edifice/Edificies/;Header/GameObjects/Edificies/;Header/Levels/;Source/Levels/;Source/Levels/Level1/;Header/GameObjects/Circles/Level 1/;Header/GameObjects/Edificies/Level 1/" />
 		<Build>
 			<Target title="Linux">
 				<Option output="bin/Linux/td" prefix_auto="1" extension_auto="1" />
@@ -48,17 +48,23 @@
 		<Unit filename="Circle.hpp">
 			<Option virtualFolder="Header/GameObjects/" />
 		</Unit>
+		<Unit filename="Circle_L1.cpp">
+			<Option virtualFolder="Source/GameObjects/Circle/Circles/" />
+		</Unit>
+		<Unit filename="Circle_L1.hpp">
+			<Option virtualFolder="Header/GameObjects/Circles/Level 1/" />
+		</Unit>
 		<Unit filename="Circle_L1T1.cpp">
 			<Option virtualFolder="Source/GameObjects/Circle/Circles/" />
 		</Unit>
 		<Unit filename="Circle_L1T1.hpp">
-			<Option virtualFolder="Header/GameObjects/Circles/" />
+			<Option virtualFolder="Header/GameObjects/Circles/Level 1/" />
 		</Unit>
 		<Unit filename="Circle_L1T2.cpp">
 			<Option virtualFolder="Source/GameObjects/Circle/Circles/" />
 		</Unit>
 		<Unit filename="Circle_L1T2.hpp">
-			<Option virtualFolder="Header/GameObjects/Circles/" />
+			<Option virtualFolder="Header/GameObjects/Circles/Level 1/" />
 		</Unit>
 		<Unit filename="Edifice.cpp">
 			<Option virtualFolder="Source/GameObjects/Edifice/" />
@@ -70,7 +76,7 @@
 			<Option virtualFolder="Source/GameObjects/Edifice/Edificies/" />
 		</Unit>
 		<Unit filename="Edifice_L1.hpp">
-			<Option virtualFolder="Header/GameObjects/Edificies/" />
+			<Option virtualFolder="Header/GameObjects/Edificies/Level 1/" />
 		</Unit>
 		<Unit filename="Game.hpp">
 			<Option virtualFolder="Header/" />
@@ -149,6 +155,12 @@
 		</Unit>
 		<Unit filename="RectShape_contains.cpp">
 			<Option virtualFolder="Source/core/RectShape/" />
+		</Unit>
+		<Unit filename="Trigger.cpp">
+			<Option virtualFolder="Source/GameObjects/" />
+		</Unit>
+		<Unit filename="Trigger.hpp">
+			<Option virtualFolder="Header/GameObjects/" />
 		</Unit>
 		<Unit filename="Window.cpp">
 			<Option virtualFolder="Source/core/Window/" />

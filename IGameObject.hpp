@@ -5,6 +5,8 @@
 #include "SFML/Window/Event.hpp"
 #include <SFML/Graphics/Color.hpp>
 
+enum class TriggerType;
+
 class Game;
 
 struct commonInitData{
@@ -19,6 +21,7 @@ struct visualData{
     sf::Color fillClr;
     sf::Color outlineClr;
     float     outlineWdth;
+    visualData(){}
     visualData(sf::Color _fillClr, sf::Color _outlineClr, float _outlineWdth){
         fillClr = _fillClr; outlineClr = _outlineClr; outlineWdth = _outlineWdth;
     }
@@ -29,6 +32,7 @@ enum GameObjectType{
     projectile,
     circle,
     cprj,
+    trigger,
     count
 };
 

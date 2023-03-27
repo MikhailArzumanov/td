@@ -724,16 +724,17 @@
 
 1679388295 source:/home/mikhail/projects/td/_.cpp
 
-1679577363 source:/home/mikhail/projects/td/Circle.cpp
+1679914018 source:/home/mikhail/projects/td/Circle.cpp
 	"Circle.hpp"
 	"Projectile.hpp"
 	"Window.hpp"
+	"Trigger.hpp"
 
-1679577209 /home/mikhail/projects/td/Circle.hpp
+1679914132 /home/mikhail/projects/td/Circle.hpp
 	"IGameObject.hpp"
 	<SFML/Graphics/CircleShape.hpp>
 
-1679573387 /home/mikhail/projects/td/IGameObject.hpp
+1679916312 /home/mikhail/projects/td/IGameObject.hpp
 	"IDrawable.hpp"
 	"RectShape.hpp"
 	"SFML/Window/Event.hpp"
@@ -958,23 +959,23 @@
 	<SFML/System/Export.hpp>
 	<SFML/System/Time.hpp>
 
-1679904286 source:/home/mikhail/projects/td/Circle_L1T1.cpp
+1679914916 source:/home/mikhail/projects/td/Circle_L1T1.cpp
 	"Circle_L1T1.hpp"
 
-1679577104 /home/mikhail/projects/td/Circle_L1T1.hpp
-	"Circle.hpp"
+1679914563 /home/mikhail/projects/td/Circle_L1T1.hpp
+	"Circle_L1.hpp"
 
-1679904500 source:/home/mikhail/projects/td/Edifice.cpp
+1679916532 source:/home/mikhail/projects/td/Edifice.cpp
 	"Edifice.hpp"
 	"Game.hpp"
 	"Window.hpp"
 	"Projectile.hpp"
 
-1679902154 /home/mikhail/projects/td/Edifice.hpp
+1679916350 /home/mikhail/projects/td/Edifice.hpp
 	"IGameObject.hpp"
 	<SFML/Graphics/RectangleShape.hpp>
 
-1679907401 /home/mikhail/projects/td/Game.hpp
+1679914409 /home/mikhail/projects/td/Game.hpp
 	"Circle.hpp"
 	"Projectile.hpp"
 	<list>
@@ -982,7 +983,7 @@
 	"Level.hpp"
 	<map>
 
-1679558642 source:/home/mikhail/projects/td/Game_clear.cpp
+1679914884 source:/home/mikhail/projects/td/Game_clear.cpp
 	"Game.hpp"
 	"Window.hpp"
 
@@ -1022,8 +1023,9 @@
 1679403065 source:/home/mikhail/projects/td/IGameObject_doesCollidesWith.cpp
 	"IGameObject.hpp"
 
-1679560196 source:/home/mikhail/projects/td/IGameObject_events.cpp
+1679913833 source:/home/mikhail/projects/td/IGameObject_events.cpp
 	"IGameObject.hpp"
+	"Trigger.hpp"
 
 1679404546 source:/home/mikhail/projects/td/IGameObject_getters.cpp
 	"IGameObject.hpp"
@@ -1031,7 +1033,7 @@
 1679571472 source:/home/mikhail/projects/td/IGameObject_tick.cpp
 	"IGameObject.hpp"
 
-1679561822 source:/home/mikhail/projects/td/main.cpp
+1679914871 source:/home/mikhail/projects/td/main.cpp
 	"Game.hpp"
 	"Window.hpp"
 
@@ -1049,16 +1051,16 @@
 1679395833 source:/home/mikhail/projects/td/Window.cpp
 	"Window.hpp"
 
-1679904614 source:/home/mikhail/projects/td/Edifice_L1.cpp
+1679916642 source:/home/mikhail/projects/td/Edifice_L1.cpp
 	"Edifice_L1.hpp"
 
 1679901524 /home/mikhail/projects/td/Edifice_L1.hpp
 	"Edifice.hpp"
 
-1679905226 /home/mikhail/projects/td/Circle_L1T2.hpp
-	"Circle.hpp"
+1679914571 /home/mikhail/projects/td/Circle_L1T2.hpp
+	"Circle_L1.hpp"
 
-1679905234 source:/home/mikhail/projects/td/Circle_L1T2.cpp
+1679914715 source:/home/mikhail/projects/td/Circle_L1T2.cpp
 	"Circle_L1T2.hpp"
 
 1679907545 /home/mikhail/projects/td/Level.hpp
@@ -1069,14 +1071,31 @@
 1679907454 source:/home/mikhail/projects/td/Game_changeLevel.cpp
 	"Game.hpp"
 
-1679907604 source:/home/mikhail/projects/td/Level1.cpp
+1679913373 source:/home/mikhail/projects/td/Level1.cpp
 	"Level1.hpp"
 	"Edifice_L1.hpp"
 	"Game.hpp"
+	"Trigger.hpp"
 
-1679907613 source:/home/mikhail/projects/td/Level1_tick.cpp
+1679914571 source:/home/mikhail/projects/td/Level1_tick.cpp
 	"Level1.hpp"
 	"Circle_L1T1.hpp"
 	"Circle_L1T2.hpp"
 	"Game.hpp"
+
+1679913925 source:/home/mikhail/projects/td/Trigger.cpp
+	"Trigger.hpp"
+	"Window.hpp"
+
+1679913984 /home/mikhail/projects/td/Trigger.hpp
+	<SFML/Graphics/RectangleShape.hpp>
+	"IGameObject.hpp"
+
+1679914705 source:/home/mikhail/projects/td/Circle_L1.cpp
+	"Circle_L1.hpp"
+	"Trigger.hpp"
+	"Game.hpp"
+
+1679914673 /home/mikhail/projects/td/Circle_L1.hpp
+	"Circle.hpp"
 

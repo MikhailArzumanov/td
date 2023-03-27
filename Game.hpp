@@ -39,6 +39,7 @@ public:
     void encycle();
     void clear();
 
+    void lose();
     void changeLevel(LevelsEnum level);
 };
 
