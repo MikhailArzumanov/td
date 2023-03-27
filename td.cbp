@@ -5,7 +5,7 @@
 		<Option title="td" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
-		<Option virtualFolders="Source/;Header/;Header/core/;Source/core/;Source/core/Window/;Source/core/IGameObject/;Source/GameObjects/;Header/GameObjects/;Source/GameObjects/Projectile/;Source/core/point/;Source/core/RectShape/;Source/GameObjects/Circle/;Source/Game/;Source/GameObjects/Edifice/;Header/GameObjects/Circles/;Source/GameObjects/Circle/Circles/" />
+		<Option virtualFolders="Source/;Header/;Header/core/;Source/core/;Source/core/Window/;Source/core/IGameObject/;Source/GameObjects/;Header/GameObjects/;Source/GameObjects/Projectile/;Source/core/point/;Source/core/RectShape/;Source/GameObjects/Circle/;Source/Game/;Source/GameObjects/Edifice/;Header/GameObjects/Circles/;Source/GameObjects/Circle/Circles/;Source/GameObjects/Edifice/Edificies/;Header/GameObjects/Edificies/;Header/Levels/;Source/Levels/;Source/Levels/Level1/" />
 		<Build>
 			<Target title="Linux">
 				<Option output="bin/Linux/td" prefix_auto="1" extension_auto="1" />
@@ -54,14 +54,29 @@
 		<Unit filename="Circle_L1T1.hpp">
 			<Option virtualFolder="Header/GameObjects/Circles/" />
 		</Unit>
+		<Unit filename="Circle_L1T2.cpp">
+			<Option virtualFolder="Source/GameObjects/Circle/Circles/" />
+		</Unit>
+		<Unit filename="Circle_L1T2.hpp">
+			<Option virtualFolder="Header/GameObjects/Circles/" />
+		</Unit>
 		<Unit filename="Edifice.cpp">
 			<Option virtualFolder="Source/GameObjects/Edifice/" />
 		</Unit>
 		<Unit filename="Edifice.hpp">
 			<Option virtualFolder="Header/GameObjects/" />
 		</Unit>
+		<Unit filename="Edifice_L1.cpp">
+			<Option virtualFolder="Source/GameObjects/Edifice/Edificies/" />
+		</Unit>
+		<Unit filename="Edifice_L1.hpp">
+			<Option virtualFolder="Header/GameObjects/Edificies/" />
+		</Unit>
 		<Unit filename="Game.hpp">
 			<Option virtualFolder="Header/" />
+		</Unit>
+		<Unit filename="Game_changeLevel.cpp">
+			<Option virtualFolder="Source/Game/" />
 		</Unit>
 		<Unit filename="Game_clear.cpp">
 			<Option virtualFolder="Source/Game/" />
@@ -110,6 +125,18 @@
 		</Unit>
 		<Unit filename="IShape.hpp">
 			<Option virtualFolder="Header/core/" />
+		</Unit>
+		<Unit filename="Level.hpp">
+			<Option virtualFolder="Header/" />
+		</Unit>
+		<Unit filename="Level1.cpp">
+			<Option virtualFolder="Source/Levels/Level1/" />
+		</Unit>
+		<Unit filename="Level1.hpp">
+			<Option virtualFolder="Header/Levels/" />
+		</Unit>
+		<Unit filename="Level1_tick.cpp">
+			<Option virtualFolder="Source/Levels/Level1/" />
 		</Unit>
 		<Unit filename="Projectile.cpp">
 			<Option virtualFolder="Source/GameObjects/Projectile/" />
