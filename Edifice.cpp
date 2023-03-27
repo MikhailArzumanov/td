@@ -30,18 +30,22 @@ void Edifice::tick(){
         return;
     }
     IGameObject* res = nullptr;
-    float resDist = 1e9f;
+    float resSqrDist = 1e9f;
     for(IGameObject* obj : *game->getObjects()){
         if(obj->getType() == GameObjectType::circle){
             point d = obj->getPosition()-position;
-            float curDist = d.getSqrModule();
-            if(curDist < resDist){
-                resDist = curDist;
+            float curSqrDist = d.getSqrModule();
+            if(curSqrDist < resSqrDist){
+                resSqrDist = curSqrDist;
                 res = obj;
             }
         }
     }
+    float sqrRange = range*range;
     if(res){
+        if(resSqrDist > sqrRange){
+            return;
+        }
         auto prjVData = visualData(PROJECTILE_FILL_COLOR, PROJECTILE_OUTLINE_COLOR, PROJECTILE_OUTLINE_WIDTH);
         auto target = res->getPosition()+res->getDims()/2;
         auto prjIData = projectileInitData(position+dims/2, PROJ_DIMS, target, prjSpeed, dmg);

@@ -10,7 +10,7 @@ const visualData CL1T1_VDATA = visualData(CL1T1_FILL_CLR, CL1T1_OUTLINE_CLR, CL1
 const float CL1T1_HP  = 4.f;
 const float CL1T1_DMG = 1.f;
 
-const point CL1T1_V = {0.f, 1.f};
+const point CL1T1_V = {0.f, 4.f};
 
 Circle_L1T1::Circle_L1T1(Game* _game, point _position)
         :Circle(_game, commonInitData{_position, CL1T1_DIMS}, CL1T1_VDATA, CL1T1_HP, CL1T1_DMG){

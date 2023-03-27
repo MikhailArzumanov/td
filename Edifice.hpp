@@ -11,9 +11,16 @@ struct edificeInitData : public commonInitData{
     }
 };
 
+enum class EdificeType {
+    L1,
+    count
+};
+
 class Edifice : public IGameObject{
 protected:
     sf::RectangleShape shape;
+    EdificeType eType = EdificeType::count;
+
     float atkSpeed = 1000.0f;
     float range    = 100.f;
     float dmg      = 0.1f;
