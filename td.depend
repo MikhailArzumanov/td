@@ -1010,9 +1010,10 @@
 1679558325 source:/home/mikhail/projects/td/Game_lifeCheck.cpp
 	"Game.hpp"
 
-1679904241 source:/home/mikhail/projects/td/Game_tick.cpp
+1679905211 source:/home/mikhail/projects/td/Game_tick.cpp
 	"Game.hpp"
 	"Circle_L1T1.hpp"
+	"Circle_L1T2.hpp"
 	"Window.hpp"
 
 1679403065 source:/home/mikhail/projects/td/IGameObject_doesCollidesWith.cpp
@@ -1045,9 +1046,15 @@
 1679395833 source:/home/mikhail/projects/td/Window.cpp
 	"Window.hpp"
 
-1679902143 source:/home/mikhail/projects/td/Edifice_L1.cpp
+1679904614 source:/home/mikhail/projects/td/Edifice_L1.cpp
 	"Edifice_L1.hpp"
 
 1679901524 /home/mikhail/projects/td/Edifice_L1.hpp
 	"Edifice.hpp"
+
+1679905226 /home/mikhail/projects/td/Circle_L1T2.hpp
+	"Circle.hpp"
+
+1679905234 source:/home/mikhail/projects/td/Circle_L1T2.cpp
+	"Circle_L1T2.hpp"
 
